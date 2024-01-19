@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 
-
 // subtract row A from row B
 void subRow (double ** matrix, int a, int b, double multiplyBy, int columns){
 

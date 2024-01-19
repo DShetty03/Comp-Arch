@@ -4,6 +4,7 @@
 #include <string.h>
 #include <ctype.h>
 
+
 struct node {
 
 	char * outName;

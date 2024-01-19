@@ -4,6 +4,7 @@
 #define SIZE 9
 
 
+
 bool isValid(int board[SIZE][SIZE], int row, int col, int num) {
     for (int i = 0; i < SIZE; i++) {
         if (board[row][i] == num || board[i][col] == num || board[row - row % 3 + i / 3][col - col % 3 + i % 3] == num) {
